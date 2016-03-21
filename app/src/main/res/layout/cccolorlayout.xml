@@ -1,0 +1,120 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:layout_width="80dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="32dp"
+        android:alpha="0"
+        android:layout_marginTop="25dp"
+        android:id="@+id/back"
+        />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"
+        android:background="@drawable/cccolor" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginLeft="55dp"
+        android:layout_marginTop="-250dp"
+        android:alpha="0" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="-80dp"
+        android:layout_marginLeft="140dp"
+        android:alpha="0" />
+
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginLeft="230dp"
+        android:layout_marginTop="-80dp"
+        android:alpha="0" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginLeft="55dp"
+        android:layout_marginTop="10dp"
+        android:alpha="0" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="-83dp"
+        android:layout_marginLeft="144dp"
+        android:alpha="0" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginLeft="230dp"
+        android:layout_marginTop="-80dp"
+        android:alpha="0" />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginLeft="55dp"
+        android:layout_marginTop="8dp"
+        android:alpha="0" />
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginLeft="145dp"
+        android:layout_marginTop="-80dp"
+        android:alpha="0" />
+
+    <Button
+        android:id="@+id/button9"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginLeft="230dp"
+        android:layout_marginTop="-85dp"
+        android:alpha="0" />
+
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="310dp"
+    android:orientation="horizontal">
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:textAlignment="center"
+        android:layout_marginLeft="40dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="-65dp"
+        android:textColor="#ffffff"
+        android:textSize="22dp"
+        android:id="@+id/editText"
+        android:hint="Write and click on the image" />
+
+</LinearLayout>
+</LinearLayout>

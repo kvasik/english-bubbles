@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.vlad.englishblocks" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/icon"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+
+        <activity
+            android:screenOrientation="userPortrait"
+            android:name=".Start"
+            android:label="EnglishBubbles" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".Bubbles"
+            android:label="EnglishBlocks"
+            android:screenOrientation="userPortrait">
+        </activity>
+
+        <activity
+            android:name=".ccColor"
+            android:label="EnglishBlocks"
+            android:screenOrientation="userPortrait">
+        </activity>
+
+        <activity
+            android:name=".vvNumber"
+            android:label="EnglishBlocks"
+            android:screenOrientation="userPortrait">
+        </activity>
+
+        <activity
+            android:name=".wwShape"
+            android:label="EnglishBlocks"
+            android:screenOrientation="userPortrait">
+        </activity>
+
+        <activity
+            android:name=".ssCar"
+            android:label="EnglishBlocks"
+            android:screenOrientation="userPortrait">
+        </activity>
+
+        <activity
+            android:name=".ssCarThird"
+            android:label="EnglishBlocks"
+            android:screenOrientation="userPortrait">
+        </activity>
+
+        <activity
+            android:name=".ssCarSecond"
+            android:label="EnglishBlocks"
+            android:screenOrientation="userPortrait">
+        </activity>
+
+        <activity
+            android:name=".ssCarFourth"
+            android:label="EnglishBlocks"
+            android:screenOrientation="userPortrait">
+        </activity>
+
+        <activity
+            android:name=".About"
+            android:label="EnglishBlocks"
+            android:screenOrientation="userPortrait">
+        </activity>
+
+        <activity
+            android:name=".Rules"
+            android:label="EnglishBlocks"
+            android:screenOrientation="userPortrait">
+        </activity>
+
+    </application>
+
+</manifest>

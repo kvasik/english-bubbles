@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="@drawable/bubbles"
+    android:layout_height="590dp"
+    android:clickable="true"
+    android:visibility="visible">
+
+    <Button
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_marginLeft="227dp"
+        android:alpha="0"
+        android:layout_marginTop="77dp"
+        android:id="@+id/car"
+        />
+
+    <Button
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:layout_marginLeft="75dp"
+        android:alpha="0"
+        android:layout_marginTop="-12dp"
+        android:id="@+id/colors"
+        />
+
+    <Button
+        android:layout_width="145dp"
+        android:layout_height="145dp"
+        android:layout_marginLeft="183dp"
+        android:alpha="0"
+        android:layout_marginTop="-18dp"
+        android:id="@+id/numbers"
+        />
+
+    <Button
+        android:layout_width="115dp"
+        android:layout_height="115dp"
+        android:layout_marginLeft="55dp"
+        android:alpha="0"
+        android:layout_marginTop="-45dp"
+        android:id="@+id/shapes"
+        />
+
+    <Button
+        android:layout_width="80dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="32dp"
+        android:alpha="0"
+        android:layout_marginTop="-460dp"
+        android:id="@+id/back"
+        />
+
+</LinearLayout>

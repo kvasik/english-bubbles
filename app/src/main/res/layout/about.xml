@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@drawable/background"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:layout_width="80dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="32dp"
+        android:alpha="0"
+        android:layout_marginTop="25dp"
+        android:id="@+id/back"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="EnglishBubbles"
+        android:id="@+id/textView2"
+        android:layout_marginLeft="45dp"
+        android:textColor="#ffffff"
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center"
+        android:textSize="17dp"
+        android:textIsSelectable="false" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="version: 1.0"
+        android:textColor="#ffffff"
+        android:id="@+id/textView3"
+        android:alpha="0.3"
+        android:layout_marginLeft="40dp"
+        android:layout_gravity="center" />
+
+    <ImageView
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:id="@+id/imageView3"
+        android:layout_marginLeft="-55dp"
+        android:layout_marginTop="-50dp"
+        android:background="@mipmap/icon"
+        android:layout_gravity="center_horizontal" />
+
+    <TextView
+        android:layout_width="260dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="29dp"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="   Изучайте новое и повторяйте старое, без этого нет прогресса. Мощные преимущества программы: интерактивность и доступность.По вопросам, жалобам и т.д. пишите по адресу:"
+        android:id="@+id/textView4"
+        android:textColor="#000000"
+        android:layout_gravity="center_horizontal" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:textColor="#ffffff"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="kvasik7@gmail.com"
+        android:id="@+id/textView"
+        android:layout_gravity="center_horizontal"
+        android:textSize="23dp"
+        android:alpha="0.6" />
+
+</LinearLayout>
